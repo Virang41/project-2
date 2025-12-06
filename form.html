@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+     <h2> Form in HTML:</h2>
+    <form action="list.html">
+       
+        <label for="First name ">First name:</label>
+        <input type="text" id="First name" name="First name" placeholder="please enter your name" required>
+
+        <label for="Middle name ">Middle name:</label>
+        <input type="text" id="Middle name" name="Middle name ">
+
+        <label for="Last name ">Last name:</label>
+        <input type="text" id="Last name" name="Last name " disabled required>
+        <br><br>
+
+        <label for="Number">Age:</label>
+        <input type="Number" id="Number" name="Number" min="1" max="100" required>
+        <br/><br/>
+
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="dateofbirth">Date of Birth:</label>
+        <input type="Date" id=">Date of Birth" name=">Date of Birth" required>
+        <br/><br/>
+
+        <label for="password">password:</label>
+        <input type="password" id="password" name="password">
+        <br/><br/>
+
+        <p>Enter your shirt size:</p>
+        <input type="radio"  name="shirtsize" id="small" />  <label for="small" >small size:</label>
+        <input type="radio"  name="shirtsize" id="medium" />  <label for="medium" >medium size:</label>
+        <input type="radio"  name="shirtsize" id="large" />  <label for="large" >large size:</label>
+       <br/><br/>
+
+       <p>Select the known Language</p>
+       <input type="checkbox"  name="language" id="English" />  <label for="English" >English</label>
+       <input type="checkbox"  name="language" id="Kannada" />  <label for="Kannada" >Kannada</label>
+       <input type="checkbox"  name="language" id="Hindi" />  <label for="Hindi" >Hindi</label>   
+       <input type="checkbox"  name="language" id="Telegu" />  <label for="Telegu" >Telegu</label> 
+       <br/><br/>
+
+        <label for="colour">Please select the colour for your shirt:</label>
+        <input type="color" name="colour" id="colour">
+        <br/><br/>
+
+        <label for="payment">Select your payment method:</label>
+        <select name="payment" id="payment" > 
+            <option value="payment"> </option>
+            <option value="payment"> Gpay</option>
+            <option value="payment"> Paytm</option>
+            <option value="payment"> Phonepe</option>
+            <option value="payment"> BHIM</option>
+        </select>
+        <br/><br/>
+
+        <label for="comments">Please provide your valuable feedback:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="please enter your feedback"></textarea>
+       <br/><br/>
+
+        <input type="Reset" />
+        <input type="submit" />
+
+    </form>
+</body>
+</html>
